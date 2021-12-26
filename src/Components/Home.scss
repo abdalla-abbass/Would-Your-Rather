@@ -1,0 +1,29 @@
+.home {
+    padding-top: 150px;
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__button {
+        font-weight: 400;
+        border: none;
+        background: #654321;
+        padding: 20px 30px;
+        color: #fff;
+        font-family: inherit;
+        font-size: 18px;
+        border-radius: 35px;
+        margin: 0 20px;
+        cursor: pointer;
+        &--flag {
+            background: #112034;
+        }
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

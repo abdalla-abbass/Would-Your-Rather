@@ -1,0 +1,53 @@
+.poll {
+    margin: 150px auto;
+    width: 500px;
+    border: 2px solid #123456;
+    padding: 10px;
+    h1 {
+        font-size: 40px;
+        line-height: 1.7;
+        padding: 10px;
+        font-weight: 100;
+        letter-spacing: 4px;
+    }
+    h2 {
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 20px;
+    }
+    &__div {
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        margin: 10px;
+    }
+    &__label {
+        margin: 0 20px;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    &__form {
+        margin: auto;
+        text-align: left;
+        padding: 20px;
+    }
+    &__input {
+        font-family: inherit;
+        width: 20px;
+        height: 20px;
+    }
+    &__btn {
+        background: #001632bd;
+        border: none;
+        font-size: inherit;
+        padding: 20px 25px;
+        font-family: inherit;
+        margin-top: 20px;
+        width: 100%;
+        color: #fff;
+        border-radius: 64px;
+        cursor: pointer;
+    }
+}

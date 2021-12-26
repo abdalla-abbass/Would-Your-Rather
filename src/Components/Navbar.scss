@@ -1,0 +1,42 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background: #001632bd;
+    z-index: 5;
+    padding: 0 50px;
+    display: flex;
+    @media (max-width: 800px) {
+        padding: 0 10px;
+    }
+
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        list-style-type: none;
+        display: flex;
+        li {
+            padding: 15px 15px;
+        }
+        a {
+            font-family: inherit;
+            font-weight: 400;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+    }
+    &__img {
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    &__spic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
